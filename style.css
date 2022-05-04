@@ -1,0 +1,38 @@
+body {
+  /* background-color: black; */
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.home {
+  position: relative;
+  width: 375px;
+  height: 812px;
+  margin: 0 auto;
+
+  background: #eeece5;
+}
+.header {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 94.58%;
+}
+.body {
+  /* 생활비메인 */
+
+  position: absolute;
+  width: 375px;
+  height: 680px;
+  left: 0px;
+  top: 56px;
+}
+.link {
+  /* 하단 메인메뉴 */
+
+  position: absolute;
+  width: 375px;
+  height: 76px;
+  left: 0px;
+  top: 736px;
+}
