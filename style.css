@@ -20,19 +20,39 @@ body {
 }
 .body {
   /* 생활비메인 */
-
   position: absolute;
   width: 375px;
   height: 680px;
   left: 0px;
   top: 56px;
 }
+/* 홈 앱 상단 */
+.homeHead {
+  position: absolute;
+  width: 327px;
+  height: 43px;
+  left: 27px;
+  top: 0px;
+}
 .link {
   /* 하단 메인메뉴 */
-
+  background-color: #00bdb2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   width: 375px;
   height: 76px;
   left: 0px;
   top: 736px;
+  padding: 0;
+  margin: 0;
+}
+.link > img {
+  width: 25%;
+}
+.img {
+  list-style: none;
+  width: 25%;
+  text-align: center;
 }
