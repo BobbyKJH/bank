@@ -1,0 +1,102 @@
+body {
+  /* background-color: black; */
+  font-family: "Noto Sans KR", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+a {
+  text-decoration: none;
+  color: #000;
+  margin: 0;
+}
+
+.home {
+  position: relative;
+  width: 375px;
+  height: 812px;
+  margin: 0 auto;
+
+  background: #eeece5;
+}
+.header {
+  position: absolute;
+  height: 44px;
+  width: 100%;
+  margin: 0;
+}
+.header > img:first-child {
+  position: absolute;
+  width: 17px;
+  height: 10.67px;
+  right: 64px;
+  top: 17.67px;
+}
+.header > img:nth-child(2n) {
+  position: absolute;
+  width: 15.33px;
+  height: 11px;
+  right: 43.67px;
+  top: 17.33px;
+}
+.header > img:last-child {
+  position: absolute;
+  width: 24.33px;
+  height: 11.33px;
+  right: 14.34px;
+  top: 17.33px;
+}
+/* 메인화면 */
+.body {
+  position: absolute;
+  width: 375px;
+  height: 691px;
+  left: 0px;
+  top: 56px;
+}
+/* 닫기 */
+.close {
+  position: absolute;
+  width: 28px;
+  font-size: 14px;
+  margin: 0 13px 747px 334px;
+}
+/* 지출 관리 */
+.title {
+  position: absolute;
+  width: 104px;
+  font-size: 24px;
+  margin: 33px 241px 699px 30px;
+}
+/* 홈 앱 상단 */
+.homeHead {
+  position: absolute;
+  width: 327px;
+  height: 43px;
+  left: 27px;
+  top: 0px;
+}
+
+/* 하단 메인메뉴 */
+.link {
+  background-color: #00bdb2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 375px;
+  height: 76px;
+  left: 0px;
+  top: 736px;
+  padding: 0;
+  margin: 0;
+}
+.link > img {
+  width: 25%;
+  cursor: pointer;
+}
+.img {
+  list-style: none;
+  width: 25%;
+  text-align: center;
+  cursor: pointer;
+}
