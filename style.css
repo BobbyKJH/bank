@@ -1,6 +1,12 @@
 body {
   /* background-color: black; */
   font-family: "Noto Sans KR", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+a {
+  text-decoration: none;
+  color: #000;
 }
 
 .home {
@@ -13,13 +19,33 @@ body {
 }
 .header {
   position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 94.58%;
+  height: 44px;
+  width: 100%;
+  margin-bottom: 12px;
 }
+.header > img:first-child {
+  position: absolute;
+  width: 17px;
+  height: 10.67px;
+  right: 64px;
+  top: 17.67px;
+}
+.header > img:nth-child(2n) {
+  position: absolute;
+  width: 15.33px;
+  height: 11px;
+  right: 43.67px;
+  top: 17.33px;
+}
+.header > img:last-child {
+  position: absolute;
+  width: 24.33px;
+  height: 11.33px;
+  right: 14.34px;
+  top: 17.33px;
+}
+/* 메인화면 */
 .body {
-  /* 생활비메인 */
   position: absolute;
   width: 375px;
   height: 680px;
@@ -34,8 +60,84 @@ body {
   left: 27px;
   top: 0px;
 }
+/* 생활비 */
+.title {
+  display: inline;
+  position: absolute;
+  width: 49px;
+  height: 27px;
+  left: 128px;
+  top: 8px;
+  margin: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  color: #000000;
+}
+.headImgBox {
+  position: absolute;
+  width: 66px;
+  height: 24px;
+  left: 261px;
+  top: 9.5px;
+}
+.headImgBox > img {
+  position: absolute;
+  width: 24px;
+  height: 21px;
+  left: 0px;
+  top: 1.5px;
+}
+.headImgBox > img:last-child {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 42px;
+  top: 0px;
+}
+/* 계좌 */
+.account {
+  position: absolute;
+  background-color: #000;
+  width: 100%;
+  height: 155px;
+  margin-top: 132px;
+}
+/* 계좌 박스 */
+.accountBox {
+  width: 279px;
+  height: 100%;
+  background-color: #fff;
+  box-sizing: border-box;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+/* 이체 */
+.transfer {
+  position: absolute;
+  width: 26px;
+  height: 21px;
+  font-size: 14px;
+  margin: 14px 17px 120px 236px;
+}
+/* 차트 */
+.chart {
+  position: absolute;
+  margin: 98px 14px 33px 241px;
+}
+/* 대출 */
+.loans {
+  position: absolute;
+  width: 262px;
+  height: 21px;
+  left: 56px;
+  top: 311px;
+}
+/* 하단 메인메뉴 */
 .link {
-  /* 하단 메인메뉴 */
   background-color: #00bdb2;
   display: flex;
   justify-content: center;
@@ -50,9 +152,11 @@ body {
 }
 .link > img {
   width: 25%;
+  cursor: pointer;
 }
 .img {
   list-style: none;
   width: 25%;
   text-align: center;
+  cursor: pointer;
 }
